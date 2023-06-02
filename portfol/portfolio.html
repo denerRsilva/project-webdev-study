@@ -16,15 +16,34 @@
         <li>HTML - básico</li>
         <li>CSS - básico</li>
         <li>JavaScript - básico</li>
-        <li>Node.js - básico</li>
+        <li>Node.js - quase nada</li>
     </ul>
 
     <h2>Competências à Desenvolver </h2>
+    <p>Basicamente um longo caminho a percorrer ainda!</p>
 
     <h2>Projetos Desenvolvidos</h2>
     <ul>
         <li>Desenvolvendo Ideia de Projeto</li>
     </ul>
+
+    <h3>Área destinada a treinos</h3>
+
+        <input type="number" name="valor1" id="valor1"> x
+        <input type="number" name="valor2" id="valor2">
+        <input type="button" value="resultado" onclick="multiplicar()">
+        <div id="result">Resultado</div>
+    <script>
+        function multiplicar(){
+            var num1 = window.document.getElementById('valor1')
+            var num2 = window.document.getElementById('valor2')
+            var result = window.document.getElementById('result')
+            var val1 = Number(num1.value)
+            var val2 = Number(num2.value)
+            var res = val1*val2
+            result.innerHTML = `Resultado é ${res}`        
+        }
+    </script>
 
 </body>
 </html>
