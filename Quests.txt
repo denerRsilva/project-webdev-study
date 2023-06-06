@@ -1,0 +1,12 @@
+Criar um site pessoal:
+Você pode criar um site para apresentar informações sobre você, seu portfólio, suas habilidades e projetos. Isso permitirá que você pratique a estruturação do HTML, a estilização com CSS e a interatividade com JavaScript.
+
+Criar um blog:
+Desenvolva um blog onde você possa compartilhar suas ideias, pensamentos e conhecimentos sobre um determinado assunto. Você pode praticar a criação de layouts atraentes com CSS e adicionar recursos interativos com JavaScript, como comentários ou filtros de busca.
+
+Construir um aplicativo de lista de tarefas: (ATIVA)
+Crie um aplicativo simples de lista de tarefas onde os usuários possam adicionar, marcar como concluídas e excluir tarefas. Isso permitirá que você pratique a manipulação do DOM com JavaScript, além de criar uma interface de usuário atraente com CSS.
+
+Criar um jogo de memória: Desenvolva um jogo de memória em que os jogadores precisam combinar pares de cartas. Você pode usar HTML para criar as cartas, CSS para estilizá-las e JavaScript para implementar a lógica do jogo, como embaralhar as cartas e verificar se os pares estão corretos.
+
+Construir um conversor de unidades: Crie uma ferramenta que permita aos usuários converter valores entre diferentes unidades de medida, como comprimento, peso, temperatura, etc. Isso ajudará você a praticar a manipulação de formulários em HTML, estilização com CSS e lógica de conversão com JavaScript.

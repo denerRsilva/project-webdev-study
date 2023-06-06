@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramenta</title>
+    <style>
+        #valor1, #valor2 {
+            text-align: center;
+            width: 100px;
+        }
+        body > input,
+        body > p {
+            font: normal 10pt Arial;
+            display: inline-block;
+        }
+        p#res {
+            font: bold 12pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Valor Unitário</h1>
+    <input type="number" name="valor1" id="valor1"> <strong>x</strong>
+    <p id="res">Preço Unitário = </p>
+    <input type="number" name="valor2" id="valor2">
+    <input type="button" value="Gerar Valor" onclick="dividir()">
+
+    <script>
+        function dividir() {
+            var num1 = window.document.getElementById('valor1')
+            var num2 = window.document.getElementById('valor2')
+            var res = window.document.getElementById('res')
+            var val1 = Number(num1.value)
+            var val2 = Number(num2.value)
+            var result = val2 / val1
+            res.innerHTML = `${result.toFixed(2)} =`
+        }
+        
+    </script>
+
+</body>
+</html>
